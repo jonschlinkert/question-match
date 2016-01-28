@@ -1,7 +1,7 @@
 {
   "name": "question-match",
   "description": "Plugin for question-store that adds a `match` method for filtering out questions to ask using glob patterns or regex.",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/jonschlinkert/question-match",
   "author": "Jon Schlinkert (https://github.com/jonschlinkert)",
   "repository": "jonschlinkert/question-match",

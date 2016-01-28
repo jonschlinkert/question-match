@@ -10,7 +10,7 @@
 var mm = require('micromatch');
 var extend = require('extend-shallow');
 
-module.exports = function(options) {
+module.exports = function(config) {
   return function(app) {
 
     app.match = function(patterns, options) {

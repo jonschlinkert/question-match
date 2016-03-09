@@ -18,12 +18,11 @@ module.exports = function(config) {
       var isMatch;
       if (Array.isArray(patterns)) {
         isMatch = function(key) {
-          return mm.any(patterns, opts);
+          return mm.any(key, patterns, opts);
         };
       } else {
         isMatch = mm.matcher(patterns, opts);
       }
-
       var len = this.queue.length;
       while (len--) {
         var key = this.queue[len];
